@@ -1,0 +1,595 @@
+JAVA FULL STACK STRUCTURE (12 WEEKS)
+
+
+JEE Curriculum
+
+Core Java 8 + JDBC
+Program Duration: 15 days 
+
+Contents:
+●	Declarations and Access Control 
+o	Identifiers & JavaBeans 
+o	Legal Identifiers 
+o	Sun's Java Code Conventions 
+o	JavaBeans Standards 
+o	Declare Classes 
+o	Source File Declaration Rules 
+o	Class Declarations and Modifiers 
+o	Concrete Subclass 
+o	Declaring an Interface 
+o	Declaring Interface Constants 
+o	Declare Class Members 
+o	Access Modifiers 
+o	Nonaccess Member Modifiers 
+o	Constructor Declarations 
+o	Variable Declarations 
+o	Declaring Enums 
+
+●	Object Orientation 
+o	Encapsulation 
+o	Inheritance, Is-A, Has-A 
+o	Polymorphism 
+o	Overridden Methods 
+o	Overloaded Methods 
+o	Reference Variable Casting
+o	Implementing an Interface
+o	Legal Return Types 
+o	Return Type Declarations
+o	Returning a Value 
+o	Constructors and Instantiation
+o	Default Constructor
+o	Overloaded Constructors
+o	Statics 
+o	Static Variables and Methods 
+o	Coupling and Cohesion 
+
+●	Assignments
+o	Stack and Heap—Quick Review 
+o	Literals, Assignments, and Variables
+o	Literal Values for All Primitive Types
+o	Assignment Operators
+o	Casting Primitives 
+o	Using a Variable or Array Element That Is Uninitialized and Unassigned 
+o	Local (Stack, Automatic) Primitives and Objects
+o	Passing Variables into Methods
+o	Passing Object Reference Variables
+o	Does Java Use Pass-By-Value Semantics? 
+o	Passing Primitive Variables 
+o	Array Declaration, Construction, and Initialization
+o	Declaring an Array
+o	Constructing an Array
+o	Initializing an Array 
+o	Initialization Blocks 
+o	Using Wrapper Classes and Boxing 
+o	An Overview of the Wrapper Classes 
+o	Creating Wrapper Objects 
+o	Using Wrapper Conversion Utilities 
+o	Autoboxing 
+o	Overloading 
+o	Garbage Collection 
+o	Overview of Memory Management and Garbage Collection 
+o	Overview of Java's Garbage Collector
+o	Writing Code That Explicitly Makes Objects Eligible for Garbage Collection 
+
+●	Operators 
+o	Java Operators 
+o	Assignment Operators
+o	Relational Operators 
+o	instanceof Comparison 
+o	Arithmetic Operators 
+o	Conditional Operator 
+o	Logical Operators 
+
+●	Flow Control, Exceptions
+o	if and switch Statements 
+o	if-else Branching 
+o	switch Statements 
+o	Loops and Iterators 
+o	Using while Loops 
+o	Using do Loops 
+o	Using for Loops
+o	Using break and continue 
+o	Unlabeled Statements 
+o	Labeled Statements 
+o	Handling Exceptions 
+o	Catching an Exception Using try and catch
+o	Using finally 
+o	Propagating Uncaught Exceptions 
+o	Defining Exceptions 
+o	Exception Hierarchy
+o	Handling an Entire Class Hierarchy of Exceptions 
+o	Exception Matching 
+o	Exception Declaration and the Public Interface 
+o	Rethrowing the Same Exception 
+o	Common Exceptions and Errors
+
+
+
+●	Maven Fundamentals
+o	Introduction
+o	Folder Structure
+o	The pom.xml
+o	Dependencies
+o	Goals
+o	Scopes
+o	The Compiler Plugin
+o	Source Plugin
+o	Jar Plugin
+
+●	TDD with Junit 5
+o	Types of Tests
+o	Why Unit Tests Are Important
+o	What's JUnit?
+o	JUnit 5 Architecture
+o	IDEs and Build Tool Support
+o	Setting up JUnit with Maven
+o	Lifecycle Methods
+o	Test Hierarchies
+o	Assertions
+o	Disabling Tests
+o	Assumptions
+o	Test Interfaces and Default Methods
+o	Repeating Tests
+o	Dynamic Tests
+o	Parameterized Tests
+o	Argument Sources
+o	Argument Conversion
+o	What Is TDD?
+o	History of TDD
+o	Why Practice TDD?
+o	Types of Testing
+o	Testing Frameworks and Tools
+o	Testing Concepts
+o	Insights from Testing
+o	Mocking Concepts
+o	Mockito Overview
+o	Mockito Demo
+o	Creating Mock Instances
+o	Stubbing Method Calls
+
+●	Strings, I/O, Formatting, and Parsing
+o	String, StringBuilder, and StringBuffer
+o	The String Class 
+o	Important Facts About Strings and Memory
+o	Important Methods in the String Class 
+o	The StringBuffer and StringBuilder Classes
+o	Important Methods in the StringBuffer and StringBuilder Classes
+o	File Navigation and I/O
+o	Types of Streams
+o	The Byte-stream  I/O hierarchy                                      
+o	Character Stream Hierarchy                             
+o	RandomAccessFile class
+o	The java.io.Console Class
+o	Serialization
+o	Dates, Numbers, and Currency
+o	Working with Dates, Numbers, and Currencies
+o	Parsing, Tokenizing, and Formatting
+o	Locating Data via Pattern Matching
+o	Tokenizing
+
+●	Generics and Collections
+o	Overriding hashCode() and equals()
+o	Overriding equals()
+o	Overriding hashCode()
+o	Collections
+o	So What Do You Do with a Collection?
+o	List Interface
+o	Set Interface
+o	Map Interface
+o	Queue Interface
+o	Using the Collections Framework
+o	ArrayList Basics
+o	Autoboxing with Collections
+o	Sorting Collections and Arrays
+o	Navigating (Searching) TreeSets and TreeMaps
+o	Other Navigation Methods
+o	Backed Collections
+o	Generic Types
+o	Generics and Legacy Code
+o	Mixing Generic and Non-generic Collections
+o	Polymorphism and Generics
+
+●	Threads
+o	Defining, Instantiating, and Starting Threads
+o	Defining a Thread
+o	Instantiating a Thread
+o	Starting a Thread
+o	Thread States and Transitions
+o	Thread States
+o	Preventing Thread Execution
+o	Sleeping
+o	Thread Priorities and yield( )
+o	Synchronizing Code
+o	Synchronization and Locks
+o	Thread Deadlock
+o	Thread Interaction
+o	Using notifyAll( ) When Many Threads May Be Waiting
+
+
+
+
+●	Concurrent Patterns in Java
+o	Introducing Executors, What Is Wrong with the Runnable Pattern?
+o	Defining the Executor Pattern: A New Pattern to Launch Threads
+o	Defining the Executor Service Pattern, a First Simple Example
+o	Comparing the Runnable and the Executor Service Patterns
+o	Understanding the Waiting Queue of the Executor Service
+o	Wrapping-up the Executor Service Pattern
+o	From Runnable to Callable: What Is Wrong with Runnables?
+o	Defining a New Model for Tasks That Return Objects
+o	Introducing the Callable Interface to Model Tasks
+o	Introducing the Future Object to Transmit Objects Between Threads
+o	Wrapping-up Callables and Futures, Handling Exceptions
+
+
+●	Concurrent Collections
+o	Implementing Concurrency at the API Level
+o	Hierarchy of Collection and Map, Concurrent Interfaces
+o	What Does It Mean for an Interface to Be Concurrent?
+o	Why You Should Avoid Vectors and Stacks
+o	Understanding Copy On Write Arrays
+o	Introducing Queue and Deque, and Their Implementations
+o	Understanding How Queue Works in a Concurrent Environment
+o	Adding Elements to a Queue That Is Full: How Can It Fail?
+o	Understanding Error Handling in Queue and Deque
+o	Introducing Concurrent Maps and Their Implementations
+o	Atomic Operations Defined by the ConcurrentMap Interface
+o	Understanding Concurrency for a HashMap
+o	Understanding the Structure of the ConcurrentHashMap from Java 7
+o	Introducing the Java 8 ConcurrentHashMap and Its Parallel Methods
+o	Parallel Search on a Java 8 ConcurrentHashMap
+o	Parallel Map / Reduce on a Java 8 ConcurrentHashMap
+o	Parallel ForEach on a Java 8 ConcurrentHashMap
+o	Creating a Concurrent Set on a Java 8 ConcurrentHashMap
+o	Introducing Skip Lists to Implement ConcurrentMap
+o	Understanding How Linked Lists Can Be Improved by Skip Lists
+o	How to Make a Skip List Concurrent Without Synchronization
+
+
+Database & SQL
+
+Program Duration: 2 days
+
+Contents:
+
+●	Introduction
+o	The Relational Model
+●	Understanding Basic SQL Syntax
+o	The Relational Model
+o	Basic SQL Commands - SELECT
+o	Basic SQL Commands - INSERT
+o	Basic SQL Commands - UPDATE
+o	Basic SQL Commands – DELETE
+
+●	Querying Data with the SELECT Statement
+o	The SELECT List
+o	SELECT List Wildcard (*)
+o	The FROM Clause
+o	How to Constrain the Result Set
+o	DISTINCT and NOT DISTINCT
+
+●	Filtering Results with the Where Clause
+o	WHERE Clause
+o	Boolean Operators
+o	The AND Keyword
+o	The OR Keyword
+o	Other Boolean Operators BETWEEN, LIKE, IN, IS, IS NOT
+
+●	Shaping Results with ORDER BY and GROUP BY
+o	ORDER BY
+o	Set Functions
+o	Set Function And Qualifiers
+o	GROUP BY
+o	HAVING clause
+
+●	Matching Different Data Tables with JOINs
+o	CROSS JOIN
+o	INNER JOIN
+o	OUTER JOINs
+o	LEFT OUTER JOIN
+o	RIGHT OUTER JOIN
+o	FULL OUTER JOIN
+o	SELF JOIN
+
+●	Creating Database Tables
+o	CREATE DATABASE
+o	CREATE TABLE
+o	NULL Values
+o	PRIMARY KEY
+o	CONSTRAINT
+o	ALTER TABLE
+o	DROP TABLE
+
+
+JDBC
+●	Introduction to JDBC
+o	Introduction to JDBC
+o	Architecture of JDBC
+o	Role of Driver Manager
+o	Understanding JDBC Driver Types
+
+●	Getting Started with JDBC
+o	Connecting to Database using JDBC
+o	Managing Database resources
+o	Handling JDBC Exceptions
+
+●	Performing Basic CRUD operations using JDBC
+o	Executing Static SQL Statements
+o	Iterating Through ResultSets
+o	Understanding Scrollable ResultSets
+o	Understanding Updatable ResultSets
+o	Understanding PreparedStatement
+o	Retrieving Data Using PreparedStatement
+o	Inserting the Record
+o	Updating the Record
+o	Removing the Record
+
+
+
+
+
+
+HTML 5, CSS 3 with Bootstrap
+Program Duration: 2 days
+
+Contents:
+HTML 5:
+●	HTML Basics
+o	Understand the structure of an HTML page.
+o	New Semantic Elements in HTML 5
+o	Learn to apply physical/logical character effects.
+o	Learn to manage document spacing. 
+●	Tables 
+o	Understand the structure of an HTML table.
+o	Learn to control table format like cell spanning, cell spacing, border
+●	List 
+o	Numbered List
+o	Bulleted List
+●	Working with Links
+o	Understand the working of hyperlinks in web pages.
+o	Learn to create hyperlinks in web pages.
+o	Add hyperlinks to list items and table contents.
+●	Image Handling 
+o	Understand the role of images in web pages 
+o	Learn to add images to web pages
+o	Learn to use images as hyperlinks
+●	Frames 
+o	Understand the need for frames in web pages. 
+o	Learn to create and work with frames.
+●	HTML Forms for User Input 
+o	Understand the role of forms in web pages
+o	Understand various HTML elements used in forms.
+o	Single line text field
+o	Text area
+o	Check box
+o	Radio buttons
+o	Password fields
+o	Pull-down menus
+o	File selector dialog box
+●	New Form Elements 
+o	Understand the new HTML  form elements such as date, number, range, email, search and datalist
+o	Understand audio, video, article tags
+
+CSS 3
+●	Introduction to Cascading Style Sheets 3.0 
+o	What CSS can do
+o	CSS Syntax
+o	Types of CSS
+●	Working with Text and Fonts
+o	Text Formatting
+o	Text Effects
+o	 Fonts
+●	CSS Selectors 
+o	Type Selector
+o	Universal Selector
+o	ID Selector
+o	Class selector
+●	Colors and Borders
+o	Background
+o	Multiple Background
+o	Colors	RGB and RGBA
+o	HSL and HSLA
+o	Borders   
+o	Rounded Corners
+o	Applying Shadows in border
+BootStrap
+●	Introduction to Bootstrap
+o	Introduction
+o	Getting Started with Bootstrap
+●	Bootstrap Basics
+o	Bootstrap grid system
+o	Bootstrap Basic Components
+●	Bootstrap Components
+o	Page Header
+o	Breadcrumb
+o	Button Groups
+o	Dropdown
+o	Nav & Navbars
+
+JavaScript, Typescript & Angular 5
+Program Duration: 5 days
+
+Contents:
+Javascript
+●	JavaScript Language
+o	Data Types and Variables
+o	JavaScript Operators
+o	Control Structures and Loops
+o	JavaScript Functions
+●	Working with Predefined Core Objects
+o	Data Types in JavaScript
+o	String Objects
+o	URL String Encoding and Decoding
+o	Math Properties
+o	Math Objects
+o	Date Objects
+o	Date and Time Arithmetic
+●	Working with arrays
+o	Arrays object, its properties and methods
+●	Document Object Model
+o	Understand the JavaScript Object Model
+o	Understand  the Window object
+●	Working With Document Object
+o	Document Object and its properties, methods and events
+●	Working with Form Object
+o	Form Object Properties, Methods & Event Handlers
+o	Text-Related Objects
+o	Button Objects
+o	Check Box and Radio Objects
+o	Select Objects
+o	Validate Data and Form Submission
+
+●	Introduction to Angular 5
+o	What is Angular 5?
+o	Why Angular 5?
+o	What is nodeJS?
+o	Scope and Goal of Angular 5
+o	Installing and using Angular 5
+o	Building Blocks of an Angular 4  Application
+o	Difference between Angular2 & 5
+o	A Basic Angular 4 Application
+o	Working with Angular 5 with Eclipse 
+
+●	Components
+o	What is a component?
+o	Developing a simple component.
+o	Templates for a component.
+o	Component lifecycle
+
+●	Data Binding
+o	What is data binding
+o	One way data binding
+o	Two way data binding
+o	Nested component
+o	Event binding
+
+●	Directives
+o	What are directives?
+o	Types of directives - component, structural and attribute
+o	Creating a basic directive
+o	Handling event & Binding input in  attribute directive 
+o	Creating your own structural directive
+o	Using the structural directive
+o	Binding input to a structural directive
+
+
+●	Working with Forms
+o	Forms in Angular 5
+o	Template Driven Form
+▪	Create the component that controls the form
+▪	Create a template with the initial form layout
+▪	Bind data properties to each form input control with the ngModel two-way data binding syntax
+▪	Add the name attribute to each form input control
+▪	Add custom CSS to provide visual feedback
+▪	Show and hide validation error messages
+▪	Handle form submission with ngSubmit
+▪	Disable the form’s submit button until the form is valid
+▪	Resetting the form
+o	Model Driven Forms
+▪	Reactive Forms Introduction
+▪	More Form Controls
+▪	Form Control Properties
+▪	setValue and patchValue
+▪	Validating Form Elements
+o	A Basic Angular Form
+o	Binding Input Fields
+o	Displaying Form Validation State & Field Validation State
+o	Displaying Validation State Using Classes
+o	Disabling Submit when Form is Invalid
+
+●	Service and Dependency Injection
+o	What is a service?
+o	Injecting a service to a component
+o	Application wide dependency injection
+o	@Injectable classes
+o	Multiple service instances
+o	@Optional and @Host
+
+●	HTTP Client
+o	The new HTTP providers
+o	Injecting the providers
+o	GET call
+o	Handling error
+o	About Observables
+o	POST request
+o	Working with headers
+o	Sequential calls & parallel calls
+
+●	Pipe
+o	What is a pipe?
+o	Passing parameters to a pipe
+o	Chaining pipes
+o	Developing a custom pipe
+
+●	Routing
+o	Why use routing?
+o	Defining a route table
+o	New Routing architecture Angular 5
+o	Navigation using hyperlink & code
+o	Supplying parameters to a route URL
+•	Animation using Angular 5
+
+
+
+Servlets 3.0 
+Program Duration: 2 days.
+Contents:
+●	Java Web Applications
+o	Web Applications – An Overview
+o	 Web Components
+o	 JEE Containers
+●	Introduction to Servlets API and Ease of Development through Annotations
+o	Introduction to Servlet
+o	Role of Servlets in Web Application Design
+o	Advantages of Servlets
+o	Basic Servlet Architecture: Servlet Container
+o	Servlet Lifecycle
+o	Ease of Developing Servlets through Annotations
+o	Retrieving Information from HTML Page
+●	Request Object
+o	Processing Get and Post Requests from Web Clients
+o	Request Dispatcher
+●	Listener
+●	Session Tracking
+o	 Introduction and Need for Session Tracking
+o	 Different Techniques for Session Management
+o	 Examples and Best Practices
+
+
+
+JPA with Hibernate 3.0 
+Program Duration: 3 days
+
+Contents:
+●	Introduction to ORM and its need 
+●	The Persistence Life Cycle 
+●	Java persistence API (JPA)
+●	JPQL 
+●	Association and  Mapping 
+
+
+
+Spring 5.0
+Program Duration: 7 days 
+
+Contents:
+
+●	Introduction to Spring Platform and environment and Spring Boot Features
+●	Introduction to Spring Framework, IoC
+o	What is Spring Framework,Benefits of Spring
+o	The Spring architecture
+o	IOC – Inversion of control, wiring beans
+o	Bean containers, lifecycle of beans in containers
+o	Customizing beans with BeanPostProcessors & BeanFactoryPostProcessors
+o	XML and Annotation-based, mixed configurations
+o	Java configuration
+●	Spring MVC framework
+o	 Introduction: DispatcherServlet, Handler mappings, Resolving views 
+o	 Annotation-based controller configuration
+●	Spring JPA Integration
+o	Spring support for JPA 
+o	Implementing Spring JPA integration
+o	Spring Data
+o	Spring Boot(Annotation based and Java configuration)
+o	Spring ReST
+o	Spring DATA ReST
