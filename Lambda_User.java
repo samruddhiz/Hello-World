@@ -16,7 +16,9 @@ interface Drawable
 public class Lambda_User {
 	public static void main(String[] args)
 	{
-		/*ArrayList <Integer> numbers=new ArrayList<>();
+		/*
+		//Example 1
+		ArrayList <Integer> numbers=new ArrayList<>();
 		numbers.add(5);
 		numbers.add(10);
 		numbers.add(12);
@@ -26,14 +28,18 @@ public class Lambda_User {
 		Consumer<Integer> method = (n) -> {System.out.println(n);};
 		numbers.forEach(method);*/
 		
-		/*StringFunction exclaim =(s)->s+"!";
+		/*
+		//Example 2
+		StringFunction exclaim =(s)->s+"!";
 		StringFunction ask =(s)->s+"?";
 		
 		stringFormated("Hello", exclaim);
 		stringFormated("Why", ask);*/
 		
 		int width = 10;
-		/*Drawable dr = new Drawable() {
+		/*
+		//Example 3
+		Drawable dr = new Drawable() {
 			
 			@Override
 			public void draw() {
@@ -42,6 +48,7 @@ public class Lambda_User {
 			}
 		};*/
 		
+		//Example 4
 		Drawable dr = (w)-> {System.out.println("Drawing:" + w);};
 		
 		dr.draw(width);
