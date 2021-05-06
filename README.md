@@ -1,3 +1,3 @@
 # Java Full Stack Examples
 My First sample repository
-This is my first ever edit in the github repository.
+This repository stores all the java examples.
