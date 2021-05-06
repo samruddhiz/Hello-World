@@ -13,7 +13,7 @@ interface Drawable
 	public void draw(int w);
 }
 
-public class User {
+public class Lambda_User {
 	public static void main(String[] args)
 	{
 		/*ArrayList <Integer> numbers=new ArrayList<>();
